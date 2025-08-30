@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SqlAdvisor.Domain\SqlAdvisor.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

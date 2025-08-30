@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SqlAdvisor.Application\SqlAdvisor.Application.csproj" />
+    <ProjectReference Include="..\SqlAdvisor.Domain\SqlAdvisor.Domain.csproj" />
+    <ProjectReference Include="..\SqlAdvisor.Infrastructure\SqlAdvisor.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
