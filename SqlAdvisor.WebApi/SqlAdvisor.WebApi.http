@@ -1,6 +1,5 @@
 @SqlAdvisor.WebApi_HostAddress = http://localhost:5017
 
-GET {{SqlAdvisor.WebApi_HostAddress}}/weatherforecast/
-Accept: application/json
+
 
 ###
